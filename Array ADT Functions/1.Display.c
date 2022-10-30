@@ -11,3 +11,4 @@ int main()
     int length = sizeof(a)/sizeof(int);
     display(a,length);
 }
+
