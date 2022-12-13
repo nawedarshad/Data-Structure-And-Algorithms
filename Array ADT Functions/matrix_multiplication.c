@@ -6,7 +6,7 @@ int main()
     scanf("%d", &r);
     printf("Enter number of columns : ");
     scanf("%d", &c);
-    printf("Enter First Matrix");
+    printf("Enter First Matrix\n");
     for (int i = 0; i < r; i++)
     {
         for (int j = 0; j < c; j++)
@@ -14,7 +14,7 @@ int main()
             scanf("%d", &a[i][j]);
         }
     }
-    printf("Enter Second Matrix");
+    printf("Enter Second Matrix\n");
     for (int i = 0; i < r; i++)
     {
         for (int j = 0; j < c; j++)
@@ -22,7 +22,7 @@ int main()
             scanf("%d", &b[i][j]);
         }
     }
-    printf("Matrix Multiplication is : ");
+    printf("Matrix Multiplication is : \n");
     for (int i = 0; i < r; i++)
     {
         for (int j = 0; j < c; j++)
